@@ -70,13 +70,6 @@ dependencies {
     implementation rootProject.ext.dependencies["recyclerview"]
     implementation rootProject.ext.dependencies["BaseRecyclerViewAdapterHelper"]
 
-//    //view
-//    implementation(rootProject.ext.dependencies["butterknife"]) {
-//        exclude module: 'support-annotations'
-//        exclude module: 'support-compat'
-//    }
-//    //view
-//    annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
     //屏幕适配 今日头条 autoSize
     implementation rootProject.ext.dependencies["autosize"]
     //rx
@@ -84,6 +77,7 @@ dependencies {
     implementation(rootProject.ext.dependencies["rxandroid"]) {
         exclude module: 'rxjava'
     }
+    implementation("io.reactivex.rxjava2:rxkotlin:2.4.0")
     implementation(rootProject.ext.dependencies["rxlifecycle"]) {
         exclude module: 'rxjava'
         exclude module: 'jsr305'

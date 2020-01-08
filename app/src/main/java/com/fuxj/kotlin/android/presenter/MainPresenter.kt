@@ -10,6 +10,10 @@ import com.fuxj.kotlin.android.presenter.view.MainView
 class MainPresenter : BasePresenter<MainView>() {
     fun login(userName: String, password: String) {
 
+        /**
+         * 业务逻辑
+         */
+
         mView.loginResult(true)
     }
 }

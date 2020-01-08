@@ -1,7 +1,8 @@
-package com.fuxj.kotlin.android
+package com.fuxj.kotlin.android.ui
 
 import android.os.Bundle
 import com.blankj.utilcode.util.ToastUtils
+import com.fuxj.kotlin.android.R
 import com.fuxj.kotlin.android.base.ui.BaseMvpActivity
 import com.fuxj.kotlin.android.presenter.MainPresenter
 import com.fuxj.kotlin.android.presenter.view.MainView
@@ -34,7 +35,7 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
 
     override fun initData(savedInstanceState: Bundle?) {
 
-        mTextView.setText(getString(R.string.app_name))
+        mTextView.text = getString(R.string.app_name)
 
         mTextView.setOnClickListener {
             mPresenter.login("", "")

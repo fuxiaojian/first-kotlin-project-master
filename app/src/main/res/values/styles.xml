@@ -8,4 +8,461 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="BaseDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="BottomAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/bottom_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/bottom_exit_anim</item>
+    </style>
+
+    <style name="RightAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/right_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/right_exit_anim</item>
+    </style>
+
+    <style name="LeftAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/left_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/left_exit_anim</item>
+    </style>
+
+    <style name="TopAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/top_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/top_exit_anim</item>
+    </style>
+
+
+
+    <!--    字体设置 字号22 -->
+    <style name="Text_22_Color_1D273C_Style">
+        <item name="android:textColor">@color/Color_1D273C</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Text_22_Color_F6F6F6_Style">
+        <item name="android:textColor">@color/Color_F6F6F6</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Text_22_Color_FFFFFF_Style">
+        <item name="android:textColor">@color/Color_FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_363F51_Style">
+        <item name="android:textColor">@color/Color_363F51</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_9A9FA8_Style">
+        <item name="android:textColor">@color/Color_9A9FA8</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_F0F0F2_Style">
+        <item name="android:textColor">@color/Color_F0F0F2</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_B4B7BE_Style">
+        <item name="android:textColor">@color/Color_B4B7BE</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_FF5454_Style">
+        <item name="android:textColor">@color/Color_FF5454</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_1966FF_Style">
+        <item name="android:textColor">@color/Color_1966FF</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Text_22_Color_818792_Style">
+        <item name="android:textColor">@color/Color_818792</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_686F7C_Style">
+        <item name="android:textColor">@color/Color_686F7C</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Text_22_Color_E8EFFF_Style">
+        <item name="android:textColor">@color/Color_E8EFFF</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Text_22_Color_040F26_Style">
+        <item name="android:textColor">@color/Color_040F26</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Text_22_Color_FFDCDC_Style">
+        <item name="android:textColor">@color/Color_FFDCDC</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <style name="Text_22_Color_EBECED_Style">
+        <item name="android:textColor">@color/Color_EBECED</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+    <!--    字体设置 字号17 -->
+    <style name="Text_17_Color_1D273C_Style">
+        <item name="android:textColor">@color/Color_1D273C</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="Text_17_Color_F6F6F6_Style">
+        <item name="android:textColor">@color/Color_F6F6F6</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="Text_17_Color_FFFFFF_Style">
+        <item name="android:textColor">@color/Color_FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_363F51_Style">
+        <item name="android:textColor">@color/Color_363F51</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_9A9FA8_Style">
+        <item name="android:textColor">@color/Color_9A9FA8</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_F0F0F2_Style">
+        <item name="android:textColor">@color/Color_F0F0F2</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_B4B7BE_Style">
+        <item name="android:textColor">@color/Color_B4B7BE</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_FF5454_Style">
+        <item name="android:textColor">@color/Color_FF5454</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_1966FF_Style">
+        <item name="android:textColor">@color/Color_1966FF</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="Text_17_Color_818792_Style">
+        <item name="android:textColor">@color/Color_818792</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_686F7C_Style">
+        <item name="android:textColor">@color/Color_686F7C</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="Text_17_Color_E8EFFF_Style">
+        <item name="android:textColor">@color/Color_E8EFFF</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="Text_17_Color_040F26_Style">
+        <item name="android:textColor">@color/Color_040F26</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="Text_17_Color_FFDCDC_Style">
+        <item name="android:textColor">@color/Color_FFDCDC</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <style name="Text_17_Color_EBECED_Style">
+        <item name="android:textColor">@color/Color_EBECED</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+
+    <!--    字体设置 字号15 -->
+    <style name="Text_15_Color_1D273C_Style">
+        <item name="android:textColor">@color/Color_1D273C</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="Text_15_Color_F6F6F6_Style">
+        <item name="android:textColor">@color/Color_F6F6F6</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="Text_15_Color_FFFFFF_Style">
+        <item name="android:textColor">@color/Color_FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_363F51_Style">
+        <item name="android:textColor">@color/Color_363F51</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_9A9FA8_Style">
+        <item name="android:textColor">@color/Color_9A9FA8</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_F0F0F2_Style">
+        <item name="android:textColor">@color/Color_F0F0F2</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_B4B7BE_Style">
+        <item name="android:textColor">@color/Color_B4B7BE</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_FF5454_Style">
+        <item name="android:textColor">@color/Color_FF5454</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_1966FF_Style">
+        <item name="android:textColor">@color/Color_1966FF</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="Text_15_Color_818792_Style">
+        <item name="android:textColor">@color/Color_818792</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_686F7C_Style">
+        <item name="android:textColor">@color/Color_686F7C</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="Text_15_Color_E8EFFF_Style">
+        <item name="android:textColor">@color/Color_E8EFFF</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="Text_15_Color_040F26_Style">
+        <item name="android:textColor">@color/Color_040F26</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="Text_15_Color_FFDCDC_Style">
+        <item name="android:textColor">@color/Color_FFDCDC</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <style name="Text_15_Color_EBECED_Style">
+        <item name="android:textColor">@color/Color_EBECED</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <!--    字体设置 字号13 -->
+    <style name="Text_13_Color_1D273C_Style">
+        <item name="android:textColor">@color/Color_1D273C</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="Text_13_Color_F6F6F6_Style">
+        <item name="android:textColor">@color/Color_F6F6F6</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="Text_13_Color_FFFFFF_Style">
+        <item name="android:textColor">@color/Color_FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_363F51_Style">
+        <item name="android:textColor">@color/Color_363F51</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_9A9FA8_Style">
+        <item name="android:textColor">@color/Color_9A9FA8</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_F0F0F2_Style">
+        <item name="android:textColor">@color/Color_F0F0F2</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_B4B7BE_Style">
+        <item name="android:textColor">@color/Color_B4B7BE</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_FF5454_Style">
+        <item name="android:textColor">@color/Color_FF5454</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_1966FF_Style">
+        <item name="android:textColor">@color/Color_1966FF</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="Text_13_Color_818792_Style">
+        <item name="android:textColor">@color/Color_818792</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_686F7C_Style">
+        <item name="android:textColor">@color/Color_686F7C</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="Text_13_Color_E8EFFF_Style">
+        <item name="android:textColor">@color/Color_E8EFFF</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="Text_13_Color_040F26_Style">
+        <item name="android:textColor">@color/Color_040F26</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="Text_13_Color_FFDCDC_Style">
+        <item name="android:textColor">@color/Color_FFDCDC</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <style name="Text_13_Color_EBECED_Style">
+        <item name="android:textColor">@color/Color_EBECED</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+
+    <!--    字体设置 字号10 -->
+    <style name="Text_10_Color_1D273C_Style">
+        <item name="android:textColor">@color/Color_1D273C</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text_10_Color_F6F6F6_Style">
+        <item name="android:textColor">@color/Color_F6F6F6</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text_10_Color_FFFFFF_Style">
+        <item name="android:textColor">@color/Color_FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_363F51_Style">
+        <item name="android:textColor">@color/Color_363F51</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_9A9FA8_Style">
+        <item name="android:textColor">@color/Color_9A9FA8</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_F0F0F2_Style">
+        <item name="android:textColor">@color/Color_F0F0F2</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_B4B7BE_Style">
+        <item name="android:textColor">@color/Color_B4B7BE</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_FF5454_Style">
+        <item name="android:textColor">@color/Color_FF5454</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_1966FF_Style">
+        <item name="android:textColor">@color/Color_1966FF</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text_10_Color_818792_Style">
+        <item name="android:textColor">@color/Color_818792</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_686F7C_Style">
+        <item name="android:textColor">@color/Color_686F7C</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text_10_Color_E8EFFF_Style">
+        <item name="android:textColor">@color/Color_E8EFFF</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text_10_Color_040F26_Style">
+        <item name="android:textColor">@color/Color_040F26</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text_10_Color_FFDCDC_Style">
+        <item name="android:textColor">@color/Color_FFDCDC</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
+    <style name="Text_10_Color_EBECED_Style">
+        <item name="android:textColor">@color/Color_EBECED</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+
 </resources>
