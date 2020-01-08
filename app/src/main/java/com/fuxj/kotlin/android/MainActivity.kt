@@ -1,12 +1,43 @@
 package com.fuxj.kotlin.android
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import com.blankj.utilcode.util.ToastUtils
+import com.fuxj.kotlin.android.base.ui.BaseMvpActivity
+import com.fuxj.kotlin.android.presenter.MainPresenter
+import com.fuxj.kotlin.android.presenter.view.MainView
+import com.gyf.immersionbar.ImmersionBar
+import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    override fun loginResult(result: Boolean) {
+
+        ToastUtils.showShort("登录成功")
+    }
+
+
+    override fun getLayoutId(): Int {
+        return R.layout.activity_main
+    }
+
+    override fun initPresenter() {
+        mPresenter = MainPresenter()
+        mPresenter.mView = this
+    }
+
+    override fun initImmersionBar() {
+        super.initImmersionBar()
+        ImmersionBar.with(this).transparentBar()
+            .keyboardEnable(true).statusBarDarkFont(true).init()
+
+    }
+
+    override fun initData(savedInstanceState: Bundle?) {
+
+        mTextView.setText(getString(R.string.app_name))
+
+        mTextView.setOnClickListener {
+            mPresenter.login("", "")
+        }
     }
 }
